@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="72px" viewBox="0 0 40 72" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>ic_DEVICES</title>
+    <g id="Home" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="01.-Home-Page--1920" transform="translate(-940.000000, -1072.000000)" fill="#202020" fill-rule="nonzero">
+            <g id="BROWSE-OUR-LATEST-OFFFERS" transform="translate(252.000000, 944.000000)">
+                <g id="Devices" transform="translate(480.000000, 72.000000)">
+                    <g id="ic_DEVICES" transform="translate(208.000000, 56.000000)">
+                        <path d="M34,0 C37.3137085,0 40,2.6862915 40,6 L40,66 C40,69.3137085 37.3137085,72 34,72 L6,72 C2.6862915,72 0,69.3137085 0,66 L0,6 C0,2.6862915 2.6862915,0 6,0 L34,0 Z M34,2 L6,2 C3.85780461,2 2.10892112,3.68396847 2.00489531,5.80035966 L2,6 L2,66 C2,68.1421954 3.68396847,69.8910789 5.80035966,69.9951047 L6,70 L34,70 C36.1421954,70 37.8910789,68.3160315 37.9951047,66.1996403 L38,66 L38,6 C38,3.85780461 36.3160315,2.10892112 34.1996403,2.00489531 L34,2 Z" id="Rectangle"></path>
+                        <path d="M21,66 C21.5522847,66 22,66.4477153 22,67 C22,67.5522847 21.5522847,68 21,68 L19,68 C18.4477153,68 18,67.5522847 18,67 C18,66.4477153 18.4477153,66 19,66 L21,66 Z" id="Rectangle"></path>
+                        <path d="M28,2 C28,3.1045695 27.1045695,4 26,4 L14,4 C12.8954305,4 12,3.1045695 12,2 L28,2 Z" id="Rectangle"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
