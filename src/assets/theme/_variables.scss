@@ -1,0 +1,20 @@
+@import "../../../node_modules/bootstrap/scss/functions";
+@import "../../../node_modules/bootstrap/scss/variables";
+// Colors
+$raven: #232323;
+$primary: #FFC000;
+$secondary: #F5F5F5;
+$tertiary: #191919;
+$danger: #FF0000;
+$success: #2BA848;
+$light-primary: #FFC300;
+$light-grey: #EBEBEB;
+$dark-grey: #AFAFAF;
+// Color Map for reuse on various components
+$colors: (raven: $raven, primary: $primary, secondary: $secondary, tertiary: $tertiary, danger: $danger, success: $success, light-primary: $light-primary, dark-grey: $dark-grey);
+$theme-colors: ( "raven": $raven) !default;
+// Custom Grid
+$grid-gutter-width: 24px;
+$grid-breakpoints: ( xs: 0, sm: 1080px, md: 1440px, lg: 1920px);
+$container-max-widths: ( sm: 752px, md: 1320px, lg: 1416px);
+@import "../../../node_modules/bootstrap/scss/bootstrap.scss";
