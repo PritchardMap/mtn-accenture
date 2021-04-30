@@ -9,8 +9,9 @@ $danger: #FF0000;
 $success: #2BA848;
 $light-primary: #FFC300;
 $light-grey: #EBEBEB;
+$dark-grey: #AFAFAF;
 // Color Map for reuse on various components
-$colors: (raven: $raven, primary: $primary, secondary: $secondary, tertiary: $tertiary, danger: $danger, success: $success, light-primary: $light-primary);
+$colors: (raven: $raven, primary: $primary, secondary: $secondary, tertiary: $tertiary, danger: $danger, success: $success, light-primary: $light-primary, dark-grey: $dark-grey);
 $theme-colors: ( "raven": $raven) !default;
 // Custom Grid
 $grid-gutter-width: 24px;
