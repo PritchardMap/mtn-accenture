@@ -1,3 +1,45 @@
-<div class="container p-5">
-
+<div class="container py-5 h-100">
+    <div class="h-100 d-flex justify-content-center align-items-center">
+        <swiper [slidesPerView]="5" [centeredSlides]="true" [spaceBetween]="5" [slidesPerGroup]="1" [initialSlide]="2" [loop]="true" [loopFillGroupWithBlank]="true" [pagination]="false" [navigation]="false" class="mySwiper">
+            <div class="row h-100 justify-content-center align-items-center no-gutters" *ngFor="let cardItem of cardItems; let i = index;">
+                <div class="col-12 d-flex justify-content-center">
+                    <ng-template swiperSlide>
+                        <div class="card-center text-center" id="{{ 'cardI' + i }}">
+                            <ng-template #mid>
+                                <div>
+                                    <img class="card-img-center" src="assets/img/icons/placeholder.png">
+                                    <div class="card-body">
+                                        <h5 class="card-title pt-4">{{ cardItem.title }}</h5>
+                                    </div>
+                                </div>
+                            </ng-template>
+                            <div *ngIf="i == 2; else mid">
+                                <div>
+                                    <img class="card-img-center" src="assets/img/icons/placeholder.png">
+                                    <div class="card-body">
+                                        <h5 class="card-title py-4">{{ cardItem.title }}</h5>
+                                        <a routerLink="" class="start-link">
+                                            <span>Start here</span> <span><img src="assets/img/icons/chevron-right copy.svg" class="link-arrow"></span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </ng-template>
+                </div>
+            </div>
+        </swiper>
+    </div>
+    <div class="row justify-content-center align-items-center">
+        <div class="col-3 d-flex justify-content-start">
+            <div class="swiper-btn d-flex justify-content-start align-items-center swiper-left" (click)='left()'>
+                <img src="assets/img/icons/chevron-left copy.svg" class="cust-arrow">
+            </div>
+        </div>
+        <div class="col-3 d-flex justify-content-end">
+            <span class="swiper-btn d-flex justify-content-start align-items-center swiper-right" (click)='right()'>
+              <img src="assets/img/icons/chevron-right copy.svg" class="cust-arrow">
+            </span>
+        </div>
+    </div>
 </div>
