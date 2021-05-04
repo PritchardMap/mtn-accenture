@@ -148,3 +148,37 @@
 .start-link:hover {
     text-decoration: none;
 }
+
+.cust-text {
+    margin-top: -400px;
+    left: 28%;
+    position: absolute;
+}
+
+.home-text {
+    font-size: 32px;
+    letter-spacing: -0.2px;
+    line-height: 40px;
+}
+
+.home-text-b {
+    font-weight: 600;
+}
+
+@media (max-width: 1540px) {
+    .cust-text {
+        left: 25%;
+    }
+}
+
+@media (max-width: 1375px) {
+    .cust-text {
+        left: 20%;
+    }
+}
+
+@media (max-width: 1030px) {
+    .cust-text {
+        left: 10%;
+    }
+}

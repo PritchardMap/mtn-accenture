@@ -1,5 +1,15 @@
 <div class="container py-5 h-100">
     <div class="h-100 d-flex justify-content-center align-items-center">
+        <div class="row cust-text">
+            <div class="col d-flex justify-content-end">
+                <div class="flex">
+                    <h4 class="home-text">
+                        What are you<br>
+                        <span class="home-text-b">here to do?</span>
+                    </h4>
+                </div>
+            </div>
+        </div>
         <swiper [slidesPerView]="5" [centeredSlides]="true" [spaceBetween]="5" [slidesPerGroup]="1" [initialSlide]="2" [loop]="true" [loopFillGroupWithBlank]="true" [pagination]="false" [navigation]="false" class="mySwiper">
             <div class="row h-100 justify-content-center align-items-center no-gutters" *ngFor="let cardItem of cardItems; let i = index;">
                 <div class="col-12 d-flex justify-content-center">
