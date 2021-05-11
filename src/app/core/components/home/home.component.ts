@@ -17,11 +17,11 @@ export class HomeComponent implements OnInit {
   newlastElement: any;
   newfirsttElement: any;
   cardItems = [
-    { id: 1, title: 'Mobile internet', routerLink: '' },
-    { id: 2, title: 'Home internet', routerLink: '' },
-    { id: 3, title: 'Get a device', routerLink: '' },
-    { id: 4, title: 'Add a phone-line', routerLink: '' },
-    { id: 5, title: 'Upgrade', routerLink: '' }
+    { id: 1, title: 'Mobile internet', linkText: 'Start here', routerLink: '' },
+    { id: 2, title: 'Home internet', linkText: 'Start here', routerLink: '' },
+    { id: 3, title: 'Get a device', linkText: 'Start here', routerLink: '' },
+    { id: 4, title: 'Add a phone-line', linkText: 'Start here', routerLink: '' },
+    { id: 5, title: 'Upgrade', linkText: 'Start here', routerLink: '' }
   ];
   queryResult: any;
 

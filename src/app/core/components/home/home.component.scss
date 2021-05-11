@@ -131,8 +131,12 @@
     font-weight: bold;
     letter-spacing: 0.2px;
     line-height: 32px;
-    text-transform: uppercase;
     color: #232323;
+    display: none;
+}
+
+.swiper-slide-active .start-link {
+    display: inline;
 }
 
 .card-center:hover .start-link {
