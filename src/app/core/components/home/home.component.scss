@@ -1,4 +1,3 @@
-@import "../../../../assets/theme/variables";
 @import "~swiper/swiper";
 @import "~swiper/components/pagination/pagination";
 @import "~swiper/components/navigation/navigation";
@@ -51,7 +50,7 @@
     width: 216px;
     border: 2px solid rgba(150, 150, 150, 0.08);
     border-radius: 16px 16px 12px 12px;
-    background: linear-gradient(180deg, $white 0%, $whisper 100%);
+    background: linear-gradient(180deg, #FFFFFF 0%, #EBEBEB 100%);
     padding: 20px;
     display: flex !important;
     justify-content: center !important;
@@ -64,8 +63,8 @@
 .card-center:hover {
     border: 2px solid rgba(150, 150, 150, 0.08);
     border-radius: 16px 16px 12px 12px;
-    background: linear-gradient(180deg, $eclipse 0%, $tertiary 100%);
-    color: $white;
+    background: linear-gradient(180deg, #373737 0%, #191919 100%);
+    color: #FFFFFF;
 }
 
 .swiper-slide-active img {
@@ -78,7 +77,7 @@
     width: 456px;
     display: flex !important;
     justify-content: center !important;
-    border-bottom: 3px solid $primary;
+    border-bottom: 3px solid #FFC000;
 }
 
 .swiper-slide-active .card-center .card-title {
@@ -95,7 +94,7 @@
 .swiper-btn {
     width: 40px;
     height: 40px;
-    background-color: $raven;
+    background-color: #232323;
     border-radius: 50%;
     cursor: pointer;
     margin-top: -100px;
@@ -103,7 +102,7 @@
 }
 
 .swiper-btn:hover {
-    background-color: $primary;
+    background-color: #FFC000;
 }
 
 .swiper-left {
@@ -135,7 +134,7 @@
     font-weight: bold;
     letter-spacing: 0.2px;
     line-height: 32px;
-    color: $raven;
+    color: #232323;
     display: none;
 }
 
@@ -144,7 +143,7 @@
 }
 
 .card-center:hover .start-link {
-    color: $white;
+    color: #FFFFFF;
 }
 
 .card-center:hover .link-arrow {
