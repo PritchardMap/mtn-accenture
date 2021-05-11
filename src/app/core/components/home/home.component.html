@@ -10,15 +10,17 @@
                 </div>
             </div>
         </div>
-        <swiper [slidesPerView]="5" [centeredSlides]="true" [spaceBetween]="5" [slidesPerGroup]="1" [initialSlide]="2" [loop]="true" [loopFillGroupWithBlank]="true" [pagination]="false" [navigation]="false" class="mySwiper">
+        <swiper [slidesPerView]="5" [centeredSlides]="true" [spaceBetween]="16" [slidesPerGroup]="1" [initialSlide]="2" [loop]="true" [loopFillGroupWithBlank]="true" [pagination]="false" [slidesOffsetBefore]="250" [navigation]="false" class="mySwiper">
             <div class="row h-100 justify-content-center align-items-center no-gutters" *ngFor="let cardItem of cardItems; let i = index;">
                 <div class="col-12 d-flex justify-content-center">
                     <ng-template swiperSlide>
                         <div class="card-center text-center" id="{{ 'cardI' + i }}">
                             <ng-template #mid>
-                                <div>
-                                    <img class="card-img-center" src="assets/img/icons/placeholder.png">
-                                    <div class="card-body">
+                                <div class="h-100 d-flex flex-column">
+                                    <div class="d-flex justify-content-center">
+                                        <img class="card-img-center mt-4" src="assets/img/icons/placeholder.png">
+                                    </div>
+                                    <div class="card-body d-flex align-items-center flex-grow">
                                         <h5 class="card-title pt-4">{{ cardItem.title }}</h5>
                                     </div>
                                 </div>

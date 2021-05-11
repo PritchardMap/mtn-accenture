@@ -23,6 +23,7 @@
 }
 
 .swiper-slide {
+    width: fit-content !important;
     text-align: center;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -52,7 +53,6 @@
     background: linear-gradient(180deg, #FFFFFF 0%, #EBEBEB 100%);
     padding: 20px;
     display: flex !important;
-    align-items: center !important;
     justify-content: center !important;
     font-size: 20px;
     font-weight: 500;
@@ -67,9 +67,9 @@
     color: #FFFFFF;
 }
 
-.swiper-slide-active .swiper-slide img {
-    height: 120px;
-    width: 120px;
+.swiper-slide-active img {
+    height: 160px;
+    width: 160px;
 }
 
 .swiper-slide-active .card-center {
@@ -151,7 +151,7 @@
 
 .cust-text {
     margin-top: -400px;
-    left: 28%;
+    left: 22%;
     position: absolute;
 }
 
