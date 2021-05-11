@@ -1,3 +1,4 @@
+@import "../../../../assets/theme/variables";
 @import "~swiper/swiper";
 @import "~swiper/components/pagination/pagination";
 @import "~swiper/components/navigation/navigation";
@@ -50,7 +51,7 @@
     width: 216px;
     border: 2px solid rgba(150, 150, 150, 0.08);
     border-radius: 16px 16px 12px 12px;
-    background: linear-gradient(180deg, #FFFFFF 0%, #EBEBEB 100%);
+    background: linear-gradient(180deg, $white 0%, $whisper 100%);
     padding: 20px;
     display: flex !important;
     justify-content: center !important;
@@ -63,8 +64,8 @@
 .card-center:hover {
     border: 2px solid rgba(150, 150, 150, 0.08);
     border-radius: 16px 16px 12px 12px;
-    background: linear-gradient(180deg, #373737 0%, #191919 100%);
-    color: #FFFFFF;
+    background: linear-gradient(180deg, $eclipse 0%, $tertiary 100%);
+    color: $white;
 }
 
 .swiper-slide-active img {
@@ -76,9 +77,8 @@
     height: 564px;
     width: 456px;
     display: flex !important;
-    align-items: center !important;
     justify-content: center !important;
-    border-bottom: 3px solid #FFC000;
+    border-bottom: 3px solid $primary;
 }
 
 .swiper-slide-active .card-center .card-title {
@@ -95,22 +95,25 @@
 .swiper-btn {
     width: 40px;
     height: 40px;
-    background-color: #232323;
+    background-color: $raven;
     border-radius: 50%;
     cursor: pointer;
-    margin-top: -25px;
+    margin-top: -100px;
+    z-index: 10;
 }
 
 .swiper-btn:hover {
-    background-color: #FFC000;
+    background-color: $primary;
 }
 
 .swiper-left {
     padding-left: 9px;
+    margin-left: 80px;
 }
 
 .swiper-right {
     padding-left: 12px;
+    margin-right: 80px;
 }
 
 .cust-arrow {
@@ -124,6 +127,7 @@
 .link-arrow {
     width: 15px !important;
     height: 15px !important;
+    margin-top: -2.25px;
 }
 
 .start-link {
@@ -131,7 +135,7 @@
     font-weight: bold;
     letter-spacing: 0.2px;
     line-height: 32px;
-    color: #232323;
+    color: $raven;
     display: none;
 }
 
@@ -140,7 +144,7 @@
 }
 
 .card-center:hover .start-link {
-    color: #FFFFFF;
+    color: $white;
 }
 
 .card-center:hover .link-arrow {
@@ -184,5 +188,40 @@
 @media (max-width: 1030px) {
     .cust-text {
         left: 10%;
+    }
+}
+
+// Breakpoints
+@media (max-width: 1920px) {
+    .card-center {
+        height: 284px;
+        width: 216px;
+    }
+    .swiper-slide-active .card-center {
+        height: 564px;
+        width: 456px;
+    }
+}
+
+@media (max-width: 1440px) {
+    .card-center {
+        box-sizing: border-box;
+        width: 200px;
+    }
+    .swiper-slide-active .card-center {
+        width: 424px;
+    }
+}
+
+@media (max-width: 1080px) {
+    .container {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .card-center {
+        width: 200px;
+    }
+    .swiper-slide-active .card-center {
+        width: 368px;
     }
 }
