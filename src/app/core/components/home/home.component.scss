@@ -158,7 +158,7 @@
 
 .cust-text {
     margin-top: -400px;
-    left: 22%;
+    left: 20%;
     position: absolute;
 }
 
@@ -172,26 +172,12 @@
     font-weight: 600;
 }
 
-@media (max-width: 1540px) {
-    .cust-text {
-        left: 25%;
-    }
-}
-
-@media (max-width: 1375px) {
-    .cust-text {
-        left: 20%;
-    }
-}
-
-@media (max-width: 1030px) {
-    .cust-text {
-        left: 10%;
-    }
-}
-
 // Breakpoints
 @media (max-width: 1920px) {
+    /*.swiper-wrapper {
+        transition-duration: 0ms;
+        transform: translate3d(-1050px, 0px, 0px) !important;
+    }*/
     .card-center {
         height: 284px;
         width: 216px;
@@ -210,17 +196,106 @@
     .swiper-slide-active .card-center {
         width: 424px;
     }
+    .cust-text {
+        left: 18%;
+    }
+    .home-text {
+        font-size: 32px;
+    }
+    .swiper-btn {
+        margin-top: -110px;
+    }
+    .swiper-left {
+        margin-left: 70px;
+    }
+    .swiper-right {
+        margin-right: 50px;
+    }
+}
+
+@media (max-width: 1366px) {
+    .swiper-wrapper {
+        transition-duration: 0ms;
+        transform: translate3d(-1100px, 0px, 0px) !important;
+    }
+    .cust-text {
+        left: 12%;
+    }
+    .home-text {
+        font-size: 32px;
+    }
+}
+
+@media (max-width: 1300px) {
+    .swiper-wrapper {
+        transition-duration: 0ms;
+        transform: translate3d(-1130px, 0px, 0px) !important;
+    }
+}
+
+@media (max-width: 1250px) {
+    .swiper-wrapper {
+        transition-duration: 0ms;
+        transform: translate3d(-1150px, 0px, 0px) !important;
+    }
+}
+
+@media (max-width: 1150px) {
+    .swiper-wrapper {
+        transition-duration: 0ms;
+        transform: translate3d(-1180px, 0px, 0px) !important;
+    }
 }
 
 @media (max-width: 1080px) {
     .container {
+        max-width: 100%;
         padding-left: 0;
         padding-right: 0;
+    }
+    .swiper-wrapper {
+        transition-duration: 0ms;
+        transform: translate3d(-1200px, 0px, 0px) !important;
     }
     .card-center {
         width: 200px;
     }
     .swiper-slide-active .card-center {
         width: 368px;
+    }
+    .cust-text {
+        left: 10%;
+    }
+    .home-text {
+        font-size: 24px;
+    }
+    .swiper-btn {
+        margin-top: -110px;
+    }
+    .swiper-left {
+        margin-left: 0px;
+    }
+    .swiper-right {
+        margin-right: 0px;
+    }
+}
+
+@media (max-width: 980px) {
+    .swiper-wrapper {
+        transition-duration: 0ms;
+        transform: translate3d(-1270px, 0px, 0px) !important;
+    }
+}
+
+@media (max-width: 880px) {
+    .swiper-wrapper {
+        transition-duration: 0ms;
+        transform: translate3d(-1330px, 0px, 0px) !important;
+    }
+    .cust-text {
+        left: 20px;
+    }
+    .home-text {
+        font-size: 20px;
     }
 }

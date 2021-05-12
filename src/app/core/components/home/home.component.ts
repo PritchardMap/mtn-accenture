@@ -35,9 +35,7 @@ export class HomeComponent implements OnInit {
   }
 
   right(): void{
-    console.log('this.cardItems.length - 1: ' + (this.cardItems.length - 1));
     this.newfirsttElement = this.cardItems[(this.cardItems.length - 1)];
-    console.log('newfirsttElement: ' + this.newfirsttElement);
     this.cardItems.pop();
     this.cardItems.unshift(this.newfirsttElement);
   }
